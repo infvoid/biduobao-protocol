@@ -83,8 +83,7 @@ module.exports = {
     goerli: {
       providers: [
         {env: "PROVIDER"},
-        {file: "~/.ethereum/goerli-url"},                    // Load from given file with contents as the URL (e.g. https://infura.io/api-key)
-        {http: "https://goerli-eth.compound.finance"}
+        {file: "~/.ethereum/goerli-url"}                     // Load from given file with contents as the URL (e.g. https://infura.io/api-key)
       ],
       web3: {
         gas: [
@@ -102,15 +101,14 @@ module.exports = {
       },
       accounts: [
         {env: "ACCOUNT"},
-        {file: "~/.ethereum/goerli"},                         // Load from given file with contents as the private key (e.g. 0x...)
+        {file: "~/.ethereum/goerli"}                          // Load from given file with contents as the private key (e.g. 0x...)
         {unlocked: 0}
       ]
     },
     ropsten: {
       providers: [
         {env: "PROVIDER"},
-        {file: "~/.ethereum/ropsten-url"},                    // Load from given file with contents as the URL (e.g. https://infura.io/api-key)
-        {http: "https://ropsten-eth.compound.finance"}
+        {file: "~/.ethereum/ropsten-url"}                     // Load from given file with contents as the URL (e.g. https://infura.io/api-key)
       ],
       web3: {
         gas: [
@@ -134,8 +132,7 @@ module.exports = {
     rinkeby: {
       providers: [
         {env: "PROVIDER"},
-        {file: "~/.ethereum/rinkeby-url"},                    // Load from given file with contents as the URL (e.g. https://infura.io/api-key)
-        {http: "https://rinkeby-eth.compound.finance"}
+        {file: "~/.ethereum/rinkeby-url"}                    // Load from given file with contents as the URL (e.g. https://infura.io/api-key)
       ],
       web3: {
         gas: [
@@ -153,15 +150,14 @@ module.exports = {
       },
       accounts: [
         {env: "ACCOUNT"},
-        {file: "~/.ethereum/rinkeby"},                        // Load from given file with contents as the private key (e.g. 0x...)
+        {file: "~/.ethereum/rinkeby"}                        // Load from given file with contents as the private key (e.g. 0x...)
         {unlocked: 0}
       ]
     },
     kovan: {
       providers: [
         {env: "PROVIDER"},
-        {file: "~/.ethereum/kovan-url"},                    // Load from given file with contents as the URL (e.g. https://infura.io/api-key)
-        {http: "https://kovan-eth.compound.finance"}
+        {file: "~/.ethereum/kovan-url"}                      // Load from given file with contents as the URL (e.g. https://infura.io/api-key)
       ],
       web3: {
         gas: [
@@ -179,15 +175,14 @@ module.exports = {
       },
       accounts: [
         {env: "ACCOUNT"},
-        {file: "~/.ethereum/kovan"},                        // Load from given file with contents as the private key (e.g. 0x...)
+        {file: "~/.ethereum/kovan"}                          // Load from given file with contents as the private key (e.g. 0x...)
         {unlocked: 0}
       ]
     },
     mainnet: {
       providers: [
         {env: "PROVIDER"},
-        {file: "~/.ethereum/mainnet-url"},                    // Load from given file with contents as the URL (e.g. https://infura.io/api-key)
-        {http: "https://mainnet-eth.compound.finance"}
+        {file: "~/.ethereum/mainnet-url"}                    // Load from given file with contents as the URL (e.g. https://infura.io/api-key)
       ],
       web3: {
         gas: [
