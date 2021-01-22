@@ -101,7 +101,7 @@ module.exports = {
       },
       accounts: [
         {env: "ACCOUNT"},
-        {file: "~/.ethereum/goerli"}                          // Load from given file with contents as the private key (e.g. 0x...)
+        {file: "~/.ethereum/goerli"},                         // Load from given file with contents as the private key (e.g. 0x...)
         {unlocked: 0}
       ]
     },
@@ -150,7 +150,7 @@ module.exports = {
       },
       accounts: [
         {env: "ACCOUNT"},
-        {file: "~/.ethereum/rinkeby"}                        // Load from given file with contents as the private key (e.g. 0x...)
+        {file: "~/.ethereum/rinkeby"},                       // Load from given file with contents as the private key (e.g. 0x...)
         {unlocked: 0}
       ]
     },
@@ -175,7 +175,7 @@ module.exports = {
       },
       accounts: [
         {env: "ACCOUNT"},
-        {file: "~/.ethereum/kovan"}                          // Load from given file with contents as the private key (e.g. 0x...)
+        {file: "~/.ethereum/kovan"},                         // Load from given file with contents as the private key (e.g. 0x...)
         {unlocked: 0}
       ]
     },
